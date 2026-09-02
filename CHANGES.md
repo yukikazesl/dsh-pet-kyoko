@@ -1,14 +1,18 @@
 # 变更说明（CHANGES）
 
-本文件记录本仓库相对上游 [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) 做了什么。  
+本文件记录本仓库相对上游 [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) 的差异。  
+**本仓库对外介绍以岁纳京子同人桌宠为主**；上游默认「鲸鱼女仆」形象与动画仅为引擎引用，不是本仓库主角。
+
 许可与免责见 [NOTICE.md](NOTICE.md)、[DISCLAIMER.md](DISCLAIMER.md)、[LICENSE](LICENSE)。
 
 ## 总览
 
 | 类别 | 内容 |
 |------|------|
+| 项目门面 | 以**岁纳京子**为主角；上游女仆仅为引擎引用 |
 | 功能 | 全局打字互动（直播伴侣式按键触发动画） |
 | 素材 / 配置 | 岁纳京子 pet pack（`kyoko-pack/`）与 DIY 提示词（`prompts/kyoko/`） |
+| 引用 | 插件引擎、素材链、上游默认动画等来自 dsh-pet（见 NOTICE） |
 | 文档 / 合规 | 上游致谢、同人声明、禁止商用、贡献指南 |
 | 依赖 | 宿主侧增加 `koffi`（Win32 `GetAsyncKeyState`） |
 
