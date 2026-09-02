@@ -5,7 +5,7 @@
 > - **全局打字互动**（类似直播伴侣：系统按键时宠物播打字动画）
 > - **岁纳京子 pet pack**（`kyoko-pack/` + `prompts/kyoko/`）
 >
-> 使用前请阅读：**[NOTICE.md](NOTICE.md)**（上游归属）· **[DISCLAIMER.md](DISCLAIMER.md)**（同人素材 / 禁止商用）· **[LICENSE](LICENSE)**（代码 MIT）· **[CONTRIBUTING.md](CONTRIBUTING.md)**
+> 使用前请阅读：**[NOTICE.md](NOTICE.md)**（上游归属）· **[DISCLAIMER.md](DISCLAIMER.md)**（同人素材 / 禁止商用）· **[LICENSE](LICENSE)**（代码 MIT）· **[CHANGES.md](CHANGES.md)**（做了什么）· **[CONTRIBUTING.md](CONTRIBUTING.md)**
 >
 > 京子相关内容为《摇曳百合》角色的**非官方同人二次创作**，与官方无关，**禁止商用**。
 
