@@ -28,10 +28,9 @@
 ## 本仓库自行提供 / 重点维护的内容
 
 1. **岁纳京子 pet pack**：`kyoko-pack/`、`prompts/kyoko/`、`assets/kyoko-preview/`（同人二次创作，禁止商用）  
-2. **全局打字互动**：在上游插件上的功能补丁（`typingEnabled`、`/dsh-pet-7340/typing` 等）  
-3. **面向京子项目的开源门面文档**：本文件、`DISCLAIMER.md`、`CHANGES.md`、`README.md`  
+2. **面向京子项目的开源门面文档**：本文件、`DISCLAIMER.md`、`CHANGES.md`、`README.md`  
 
-对上游代码的修改与新增代码以 MIT 发布（见 `LICENSE`）；京子相关素材适用 `DISCLAIMER.md`。
+对上游代码的修改与新增代码以 MIT 发布（见 `LICENSE`）；京子相关素材适用 `DISCLAIMER.md`。工程内若有未完成实验功能，以代码为准，不以 README 宣传为准。
 
 ## 运行时依赖
 
