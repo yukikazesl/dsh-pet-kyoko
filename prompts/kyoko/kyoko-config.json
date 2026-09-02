@@ -1,0 +1,71 @@
+{
+  "notificationsEnabled": false,
+  "pets": [
+    {
+      "name": "岁纳京子",
+      "id": "kyoko1",
+      "size": 420,
+      "balanceEnabled": false,
+      "whisperEnabled": false,
+      "display": "both",
+      "position": {
+        "corner": "bottom-right",
+        "marginX": 24,
+        "marginY": 48
+      }
+    }
+  ],
+  "animations": {
+    "idle": ["待机呼吸休闲"],
+    "turn": ["东张西望"],
+    "drag": ["被鼠标拖拽悬空反馈"],
+    "clicks": [
+      "点击回应-开心跃动",
+      "点击回应-害羞惊讶",
+      "点击回应-傲娇生气"
+    ],
+    "moves": {
+      "default": {
+        "minDist": 80,
+        "maxDist": 280,
+        "margin": 20,
+        "leadSec": 2,
+        "tailSec": 2
+      },
+      "actions": []
+    },
+    "categories": [
+      {
+        "id": "日常",
+        "weight": 80,
+        "actions": [
+          "原地小憩沉眠",
+          "哈欠连天",
+          "超大伸懒腰",
+          "悠闲哼歌",
+          "大口吃零食",
+          "玩游戏气急败坏"
+        ]
+      }
+    ],
+    "events": {
+      "balance": [
+        "待机呼吸休闲",
+        "待机呼吸休闲",
+        "待机呼吸休闲",
+        "哈欠连天",
+        "原地小憩沉眠",
+        "点击回应-傲娇生气"
+      ]
+    }
+  },
+  "animationWeights": {
+    "idle": 15,
+    "turn": 5,
+    "move": 0
+  },
+  "eventsRefreshSec": {
+    "balance": 1800,
+    "whisper": 300
+  }
+}

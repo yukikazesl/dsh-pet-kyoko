@@ -1,0 +1,52 @@
+# ── 素材处理链中间产物（跑 scripts/*.py 可再生，不入仓库） ──
+step01/
+step02/
+step03/
+step04/
+
+# ── 素材源（体积大；京子源 mp4 亦不入库，webm 成品在 kyoko-pack/） ──
+video/*.mp4
+video/*.mov
+video/*.mkv
+
+# ── PR 手工抠像工作数据 ──
+pr/
+prproj/
+
+# ── 本地工具（机器相关，不入仓库） ──
+.tools/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+.uv-cache/
+
+# ── Node ──
+node_modules/
+.npm-cache/
+.npm-tmp-cache/
+npm-debug.log*
+*.tgz
+
+# ── 临时/备份目录 ──
+temp/
+prompts/kyoko/preview/
+
+# ── 杂散本地文件 ──
+live2d-work/
+f9e0d354-*.png
+
+# ── dsh-pet 构建产物 ──
+dsh-pet/lib/
+dsh-pet/runtime/electron-helper/shared-core.js
+
+# ── IDE / 编辑器 ──
+.idea/
+.vscode/
+*.swp
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db
+desktop.ini
